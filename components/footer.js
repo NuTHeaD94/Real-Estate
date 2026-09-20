@@ -5,7 +5,7 @@ class CustomFooter extends HTMLElement {
             <style>
                 :host {
                     display: block;
-                    background-color: #1a365d;
+                    background-color: #17201d;
                     color: white;
                 }
                 
@@ -138,11 +138,11 @@ class CustomFooter extends HTMLElement {
                 <div class="footer-container">
                     <div class="footer-about">
                         <a href="/" class="footer-logo">
-                            <i data-feather="home" class="footer-logo-icon"></i>
-                            <span class="footer-logo-text">AmeenHomes</span>
+                            <i data-feather="radio" class="footer-logo-icon"></i>
+                            <span class="footer-logo-text">VoiceDesk</span>
                         </a>
                         <p class="footer-about-text">
-                            AmeenHomes is a premier real estate agency specializing in luxury properties across India. We're committed to helping you find your perfect home in Hubli, Dharwad, Bangalore and other major cities.
+                            A focused demo of an AI voice assistant built to make every business call more useful.
 </p>
                         <div class="footer-social">
                             <a href="#" class="social-link"><i data-feather="facebook"></i></a>
@@ -155,37 +155,35 @@ class CustomFooter extends HTMLElement {
                     <div class="footer-links-container">
                         <h3 class="footer-heading">Quick Links</h3>
                         <ul class="footer-links">
-                            <li class="footer-link-item"><a href="/" class="footer-link">Home</a></li>
-                            <li class="footer-link-item"><a href="/#featured" class="footer-link">Properties</a></li>
-                            <li class="footer-link-item"><a href="about.html" class="footer-link">About Us</a></li>
-                            <li class="footer-link-item"><a href="/#testimonials" class="footer-link">Testimonials</a></li>
-                            <li class="footer-link-item"><a href="/#contact" class="footer-link">Contact Us</a></li>
+                            <li class="footer-link-item"><a href="/#top" class="footer-link">Home</a></li>
+                            <li class="footer-link-item"><a href="/#capabilities" class="footer-link">Capabilities</a></li>
+                            <li class="footer-link-item"><a href="/#receptionist" class="footer-link">Live demo</a></li>
 </ul>
                     </div>
                     
                     <div class="footer-contact">
-                        <h3 class="footer-heading">Contact Us</h3>
+                        <h3 class="footer-heading">Demo notes</h3>
                         <div class="contact-info">
-                            <i data-feather="map-pin" class="contact-icon"></i>
-                            <span>Rajiv Gandhi Nagar, Bommahalli,Bangalore</span>
-                        </div>
-                        <div class="contact-info">
-                            <i data-feather="phone" class="contact-icon"></i>
-                            <span>+91 76250 86805</span>
-</div>
-                        <div class="contact-info">
-                            <i data-feather="mail" class="contact-icon"></i>
-                            <span>jejdn18@gmail.com</span>
+                            <i data-feather="headphones" class="contact-icon"></i>
+                            <span>Voice-first customer experience</span>
                         </div>
                         <div class="contact-info">
                             <i data-feather="clock" class="contact-icon"></i>
-                            <span>Mon-Sat: 9:00 AM - 10:00 PM</span>
+                            <span>Available around the clock</span>
+</div>
+                        <div class="contact-info">
+                            <i data-feather="shield" class="contact-icon"></i>
+                            <span>Designed with privacy in mind</span>
+                        </div>
+                        <div class="contact-info">
+                            <i data-feather="message-circle" class="contact-icon"></i>
+                            <span>Natural conversations, useful actions</span>
                         </div>
                     </div>
                 </div>
                 
                 <div class="copyright">
-                    &copy; ${new Date().getFullYear()} AmeenHomes. All Rights Reserved.
+                    &copy; ${new Date().getFullYear()} VoiceDesk demo. Built for better conversations.
                 </div>
             </footer>
         `;

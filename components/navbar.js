@@ -20,7 +20,7 @@ class CustomNavbar extends HTMLElement {
                 }
                 
                 .scrolled {
-                    background-color: rgba(26, 54, 93, 0.95) !important;
+                    background-color: rgba(23, 32, 29, 0.96) !important;
                 }
                 
                 .scrolled .nav-link, .scrolled .logo-text {
@@ -28,7 +28,8 @@ class CustomNavbar extends HTMLElement {
                 }
                 
                 .scrolled .cta-button {
-                    background-color: #d4af37 !important;
+                    background-color: #d8f36b !important;
+                    color: #17201d !important;
                     color: white !important;
                 }
                 
@@ -48,14 +49,14 @@ class CustomNavbar extends HTMLElement {
                 }
                 
                 .logo-icon {
-                    color: #d4af37;
+                    color: #72802a;
                     margin-right: 0.5rem;
                 }
                 
                 .logo-text {
                     font-size: 1.5rem;
                     font-weight: 700;
-                    color: #1a365d;
+                    color: #17201d;
                     transition: color 0.3s ease;
                 }
                 
@@ -66,14 +67,14 @@ class CustomNavbar extends HTMLElement {
                 
                 .nav-link {
                     text-decoration: none;
-                    color: #1a365d;
+                    color: #17201d;
                     font-weight: 500;
                     transition: color 0.3s ease;
                     position: relative;
                 }
                 
                 .nav-link:hover {
-                    color: #d4af37;
+                    color: #72802a;
                 }
                 
                 .nav-link:after {
@@ -83,7 +84,7 @@ class CustomNavbar extends HTMLElement {
                     height: 2px;
                     bottom: -4px;
                     left: 0;
-                    background-color: #d4af37;
+                    background-color: #d8f36b;
                     transition: width 0.3s ease;
                 }
                 
@@ -102,7 +103,7 @@ class CustomNavbar extends HTMLElement {
                 }
                 
                 .cta-button:hover {
-                    background-color: #142a4a;
+                    background-color: #c3df55;
                     transform: translateY(-2px);
                 }
                 .mobile-menu-button {
@@ -125,7 +126,7 @@ class CustomNavbar extends HTMLElement {
                     display: block;
                     width: 100%;
                     height: 3px;
-                    background-color: #1a365d;
+                    background-color: #17201d;
                     transition: all 0.3s ease;
                 }
 
@@ -151,7 +152,7 @@ class CustomNavbar extends HTMLElement {
                     left: 0;
                     right: 0;
                     bottom: 0;
-                    background-color: rgba(26, 54, 93, 0.98);
+                    background-color: rgba(23, 32, 29, 0.98);
                     padding: 2rem;
                     z-index: 1000;
                     overflow-y: auto;
@@ -187,23 +188,24 @@ class CustomNavbar extends HTMLElement {
                 }
 
                 .mobile-menu .nav-link:hover {
-                    background-color: rgba(212, 175, 55, 0.2);
-                    color: #d4af37;
+                    background-color: rgba(216, 243, 107, 0.15);
+                    color: #d8f36b;
                 }
 
                 .mobile-menu .nav-link.cta-button {
-                    background-color: #d4af37;
+                    background-color: #d8f36b;
+                    color: #17201d;
                     color: white;
                     font-weight: 600;
                     margin-top: 1rem;
                 }
 
                 .mobile-menu .nav-link.cta-button:hover {
-                    background-color: #c19b30;
+                    background-color: #c3df55;
                     transform: translateY(-2px);
                 }
 .mobile-menu .nav-link:hover {
-                    color: #d4af37;
+                    color: #d8f36b;
                 }
 
                 .mobile-menu .nav-link:after {
@@ -213,7 +215,7 @@ class CustomNavbar extends HTMLElement {
                     height: 2px;
                     bottom: 0;
                     left: 0;
-                    background-color: #d4af37;
+                    background-color: #d8f36b;
                     transition: width 0.3s ease;
                 }
                 .mobile-menu .nav-link:hover:after {
@@ -231,17 +233,15 @@ class CustomNavbar extends HTMLElement {
 </style>
             <nav id="mainNav">
                 <div class="nav-container">
-                    <a href="/" class="logo">
-                        <i data-feather="home" class="logo-icon"></i>
-                        <span class="logo-text">AmeenHomes</span>
+                    <a href="/#top" class="logo">
+                        <i data-feather="radio" class="logo-icon"></i>
+                        <span class="logo-text">VoiceDesk</span>
                     </a>
                     <div class="nav-links">
-                    <a href="/" class="nav-link">Home</a>
-                    <a href="/#featured" class="nav-link">Properties</a>
-                    <a href="about.html" class="nav-link">About Us</a>
-                    <a href="/#testimonials" class="nav-link">Testimonials</a>
-                    <a href="/#contact" class="nav-link">Contact</a>
-                    <a href="/#contact" class="cta-button">Get in Touch</a>
+                    <a href="/#top" class="nav-link">Home</a>
+                    <a href="/#capabilities" class="nav-link">Capabilities</a>
+                    <a href="/#receptionist" class="nav-link">Live demo</a>
+                    <a href="/#receptionist" class="cta-button">Try the assistant</a>
 </div>
 <button class="mobile-menu-button">
                         <div class="triple-dash-icon">
@@ -254,16 +254,16 @@ class CustomNavbar extends HTMLElement {
                 <div class="mobile-menu" id="mobileMenu">
                     <div class="nav-links">
                         <div class="mobile-menu-group">
-                            <a href="/" class="nav-link">Home</a>
+                            <a href="/#top" class="nav-link">Home</a>
                         </div>
                         <div class="mobile-menu-group">
-                            <a href="about.html" class="nav-link">About Us</a>
+                            <a href="/#capabilities" class="nav-link">Capabilities</a>
                         </div>
                         <div class="mobile-menu-group">
-                            <a href="/#contact" class="nav-link">Contact</a>
+                            <a href="/#receptionist" class="nav-link">Live demo</a>
                         </div>
                         <div class="mobile-menu-group">
-                            <a href="/#contact" class="nav-link cta-button">Get in Touch</a>
+                            <a href="/#receptionist" class="nav-link cta-button">Try the assistant</a>
                         </div>
                     </div>
                 </div>
